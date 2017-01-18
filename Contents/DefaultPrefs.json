@@ -88,6 +88,49 @@
     "default": ""
   },
   {
+    "id": "radarr_url",
+    "label": "Radarr URL",
+    "type": "text",
+    "default": "http://127.0.0.1:8989/"
+  },
+  {
+    "id": "radarr_api",
+    "label": "Radarr API Key",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "radarr_autorequest",
+    "label": "Automatically add request to Radarr?",
+    "type": "bool",
+    "default": false
+  },
+  {
+    "id": "radarr_profile",
+    "label": "Radarr Quality Profile",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "radarr_path",
+    "label": "Root folder for Show to be placed in (optional)",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "radarr_seasonfolder",
+    "label": "Create season folders?",
+    "type": "bool",
+    "default": false
+  },
+  {
+    "id": "radarr_monitor",
+    "label": "Monitor Seasons (manual will allow selecting of seasons/episodes after adding)",
+    "type": "enum",
+    "values": ["manual","all", "future", "latest", "first", "missing", "existing", "none"],
+    "default": "none"
+  },
+  {
     "id": "couchpotato_url",
     "label": "CouchPotato URL",
     "type": "text",
